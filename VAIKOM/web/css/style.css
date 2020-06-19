@@ -131,6 +131,25 @@ li.nav-item {
     text-decoration: line-through;
 }
 
+
+/*persons name-------*/
+
+.name-persons{
+    color: black;
+}
+
+/*---image centre--*/
+
+
+.centre1{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 45%;
+}
+
+
 /*-- //header --*/
 /*--about--*/
 h2.title-wthree{

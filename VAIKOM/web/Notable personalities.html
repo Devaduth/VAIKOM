@@ -1,15 +1,10 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 
 <!DOCTYPE html>
 <html lang="zxx">
 
 <head>
-    <title>Photowall Photo Gallery Category Bootstrap Responsive Template | Plans :: W3layouts</title>
+    <title>V A I K O M</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
@@ -27,6 +22,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     <!-- Custom-Files -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/lightbox.css">
     <!-- Banner-Slider-CSS -->
     <link rel="stylesheet" href="css/banner-style.css">
     <link rel="stylesheet" href="css/aos.css">
@@ -42,7 +39,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <body>
 
-    <section class="content-main-w3 inner-page" id="home">
+    <section class="content-main-w3" id="home">
         <!--/nav-->
         <div class="header_top_w3ls">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,8 +48,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
+                     <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home
 									<span class="sr-only">(current)</span>
 								</a>
@@ -63,8 +60,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li class="nav-item">
                             <a class="nav-link" href="team.html">Photographers</a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        <li class="nav-item">
+                             <a class="nav-link" href="pricing.html">Pricing</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="clients.html">Testimonials</a>
@@ -79,40 +76,63 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </nav>
             <div class="logo-wthree text-center">
                 <a class="navbar-brand" href="index.html">
-				 PhotoWall <span> Make Memories</span></a>
+				 V A I K O M <span> the heaven</span></a>
             </div>
 
         </div>
-
         <!--//nav-->
-    </section>
-    <!--/team-->
-    <img src="images/personalities/basheer.jpg" alt="">
-
-    <h1>Vaikom Muhammed Basheer</h1>
-    <!--/footer-->
-     <footer class="pt-lg-5 inner-page-footer">
-        <div class="social_media_w3layouts text-center">
-            <ul class="social-icons justify-content-center mt-md-5 mt-3">
-                <li class="mr-1"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                <li class="mx-1"><a href="#"><span class="fab fa-twitter"></span></a></li>
-                <li class="mx-1"><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-                <li class="mx-1"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-            </ul>
-            <p class="copy-right-w3ls my-3">© 2018 PhotoWall. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+        <div class="logo-wthree text-center">
+            <a class="navbar-brand" >
+             notable personalities <span> </span></a>
         </div>
-    </footer>
-    <!--//footer-->
 
+    </div>
+        <div class="container-fluid gallery-lightbox my-5">
+            <div class="row m-0">
+                <div class="col-lg-2 col-md-2 col-sm-3 p-0 snap-img">
+                    <div class="gallery_grid1 hover08" data-aos="fade-up">
+                        <div class="gallery_effect">
+                            <a href="basheer.html" data-lightbox="" data-title-wthree="">
+                                <figure href="">  <img src="images/personalities/basheer.jpg" alt=" " class="img-fluid"> </figure>
+                                
+                            </a>
+                            <h3><a class="name-persons" href="basheer.html"><span>Vaikom Muhammed Basheer</span></a></h3>
+                        </div>
+                    </div>
+                    
+                </div>  
+
+            </div>
+
+        </div>
+        <!--/footer-->
+        <footer class="mt-lg-5 mt-3">
+             <div class="social_media_w3layouts text-center">
+           <ul class="social-icons justify-content-center mt-md-5 mt-3">
+                                <li class="mr-1"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                <li class="mx-1"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li class="mx-1"><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                <li class="mx-1"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                            </ul>
+            <p class="copy-right-w3ls my-3">© 2020.All rights reserved | Design by <a href="">Devaduth</a></p>
+        </div>
+        </footer>
+    </section>
+<!--//footer-->
     <script src="js/jquery-2.2.3.min.js"></script>
-    <script src='js/aos.js'></script>
+     <script src='js/aos.js'></script>
     <script>
         AOS.init({
             easing: 'ease-out-back',
             duration: 1000
         });
     </script>
-   <!--/ start-smoth-scrolling -->
+
+    <!--  light box js -->
+    <script src="js/lightbox-plus-jquery.min.js">
+    </script>
+    <!-- //light box js-->
+  <!--/ start-smoth-scrolling -->
     <script src="js/move-top.js"></script>
     <script src="js/easing.js"></script>
     <script>
@@ -127,14 +147,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </script>
     <script>
         $(document).ready(function() {
-            /*
+            
             						var defaults = {
             							  containerID: 'toTop', // fading element id
             							containerHoverID: 'toTopHover', // fading element hover id
             							scrollSpeed: 1200,
             							easingType: 'linear' 
             						 };
-            						*/
+            						
 
             $().UItoTop({
                 easingType: 'easeOutQuart'
